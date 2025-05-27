@@ -11,7 +11,38 @@ This package is particularly useful for applications that require displaying ext
 
 ## Usage
 
-Add the package to your `pubspec.yaml`: ```yaml
-dependencies:
-  pwa_virtualized_list: ^1.0.0
-  
+```dart
+import 'package:flutter/material.dart';
+import 'package:pwa_virtualized_list/pwa_virtualized_list.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(title: const Text('Virtualized List Example')),
+        body: const SizedBox(
+          height: 400, // Set a fixed height for the list
+          child: PwaVirtualizedList(
+            itemCount: 100,
+            itemHeight: 50.0,
+            itemBuilder: _itemBuilder,
+          ),
+        ),
+      ),
+    );
+  }
+
+  static Widget _itemBuilder(BuildContext context, int index) {
+    return ListTile(
+      title: Text('Item $index'),
+    );
+  }
+}
+```
