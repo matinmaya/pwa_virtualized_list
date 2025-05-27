@@ -1,4 +1,4 @@
-## 1.0.1
+## 1.0.2
 
 * Initial release of `pwa_virtualized_list`.
 * Provides a performant, virtualized list widget optimized for PWAs.
