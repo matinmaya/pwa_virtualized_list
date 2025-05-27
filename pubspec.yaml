@@ -8,8 +8,8 @@ repository: https://github.com/matinmaya/pwa_virtualized_list
 issue_tracker: https://github.com/matinmaya/pwa_virtualized_list/issues
 
 environment:
-  sdk: ^3.7.2
-  flutter: ">=1.17.0"
+  sdk: ">=2.19.0 <3.0.0"
+  flutter: ">=1.20.0"
 
 dependencies:
   flutter:
@@ -27,5 +27,5 @@ flutter:
         package: com.example.pwa_virtualized_list
         pluginClass: PwaVirtualizedListPlugin
       ios:
-        pluginClass: PwaVirtualizedListPlugin
+        pluginClass: DummyPlugin
 
