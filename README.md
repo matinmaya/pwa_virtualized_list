@@ -13,7 +13,7 @@ Add the package to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  pwa_virtualized_list: ^1.0.1
+  pwa_virtualized_list: ^1.0.3
   ```
 
 ## Usage
