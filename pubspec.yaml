@@ -1,7 +1,5 @@
 name: pwa_virtualized_list
-description: >
-  A Flutter package that provides a virtualized list widget optimized for Progressive Web Apps (PWAs). This package is designed to handle large lists efficiently by rendering only the visible items, improving performance and user experience in web applications.
-  This package is particularly useful for applications that require displaying extensive lists of data without compromising on performance, making it ideal for PWAs built with Flutter.
+description: A Flutter package for rendering large scrollable lists efficiently by showing only visible items. Ideal for PWAs.
 version: 1.0.1
 homepage: https://github.com/matinmaya/pwa_virtualized_list 
 repository: https://github.com/matinmaya/pwa_virtualized_list 
