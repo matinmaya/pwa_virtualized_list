@@ -9,6 +9,12 @@ This package is particularly useful for applications that require displaying ext
 - Supports dynamic item heights.
 - Easy to integrate with existing Flutter apps.
 
+Add the package to your `pubspec.yaml`:
+```yaml
+dependencies:
+  pwa_virtualized_list: ^1.0.0
+  ```
+
 ## Usage
 
 ```dart
